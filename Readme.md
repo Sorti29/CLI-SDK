@@ -7,6 +7,7 @@ Este script de PowerShell se utiliza para conectarse a un servidor Qlik Sense, a
 
 - PowerShell (v5.1 o superior).
 - Bibliotecas de Qlik Sense .NET SDK:
+
   - `Newtonsoft.Json.dll`
   - `Qlik.Engine.dll`
   - `Qlik.Sense.JsonRpc.dll`

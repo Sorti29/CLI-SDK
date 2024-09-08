@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>QlikSense.NetSDK</id>
+    <version>15.1.1</version>
+    <title>Qlik Sense .Net SDK</title>
+    <authors>QlikTech International AB</authors>
+    <owners>QlikTech International AB</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://help.qlik.com/en-US/sense-developer/</projectUrl>
+    <description>The Qlik Sense .NET SDK is a development toolkit for making API calls to the Qlik Sense Engine from a .NET environment. Supported .NET platforms are .NET Framework 4.5.2, .NET Core 2.1 and .NET releases compatible with those two versions.
+
+Qlik support for the .NET SDK is only available to customers with a valid and supported license to Qlik Sense Enterprise for Windows.</description>
+    <copyright>Copyright ©2016-2020 QlikTech International AB, All Rights Reserved</copyright>
+    <tags>qlik sense</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Newtonsoft.Json" version="11.0.1" />
+      </group>
+      <group targetFramework=".NETFramework4.5.2">
+        <dependency id="Newtonsoft.Json" version="6.0.8" />
+      </group>
+    </dependencies>
+    <references>
+      <reference file="Qlik.Sense.JsonRpc.dll" />
+      <reference file="Qlik.Engine.dll" />
+      <reference file="Qlik.Sense.Client.dll" />
+      <reference file="Qlik.Engine.Extensions.dll" />
+    </references>
+  </metadata>
+</package>

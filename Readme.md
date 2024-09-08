@@ -1,3 +1,4 @@
+
 # Qlik Sense Connection Script
 
 Este script de PowerShell se utiliza para conectarse a un servidor Qlik Sense, autenticar la sesión de usuario, recuperar el script de carga de una aplicación específica, y obtener información detallada sobre dimensiones y medidas de dicha aplicación.
@@ -33,3 +34,37 @@ Este script de PowerShell se utiliza para conectarse a un servidor Qlik Sense, a
 1. Ejecuta el script de PowerShell:
    ```powershell
    .\QlikSenseConnectionScript.ps1
+   ```
+   
+2. Se te solicitarán tus credenciales de usuario para autenticación.
+
+3. El script realizará la autenticación y recuperará el script de carga de la aplicación, junto con la información de dimensiones y medidas especificadas.
+
+## Funcionalidades
+
+- **Conectar al servidor Qlik Sense**: Autenticación utilizando credenciales de usuario.
+- **Obtener el script de carga**: Recupera y muestra el script de carga de una aplicación específica.
+- **Listar objetos de la aplicación**: Muestra todos los objetos presentes en la aplicación.
+- **Obtener detalles de dimensiones y medidas**: Recupera información detallada de dimensiones y medidas específicas.
+
+## Personalización
+
+- Puedes personalizar el script modificando las variables como el ID de la aplicación, ID de dimensiones y medidas, y ajustando los parámetros de autenticación.
+
+## Contribución
+
+Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y haz commit (`git commit -am 'Agrega nueva funcionalidad'`).
+4. Sube tus cambios a la rama (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
+
+## Licencia
+
+Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+## Contacto
+
+Si tienes alguna pregunta o problema, no dudes en abrir un issue en el repositorio o contactarme directamente.

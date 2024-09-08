@@ -87,4 +87,3 @@ $MedidaFields | ForEach-Object { Write-Output $_ }
 
 # Opcional: Mostrar todos los métodos disponibles
 # $QEApp | Get-Member
-
